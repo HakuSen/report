@@ -1,0 +1,54 @@
+@import "./setting";
+
+/*****************************************
+  flex 布局的内容水平对齐方式支持
+ *****************************************/
+.flex-horizontal-aligns(){
+  &.flex-left{
+    justify-content: flex-start;
+  }
+
+  &.flex-center{
+    justify-content: center;
+  }
+
+  &.flex-right{
+    justify-content: flex-end;
+  }
+}
+
+/*****************************************
+  flex 布局的内容垂直对齐方式支持
+ *****************************************/
+.flex-vertical-aligns(){
+  &.flex-top{
+    align-items: flex-start;
+  }
+
+  &.flex-middle{
+    align-items: center;
+  }
+
+  &.flex-bottom{
+    align-items: flex-end;
+  }
+}
+
+/*****************************************
+  尺寸附加定义样式
+ *****************************************/
+.size-define(){
+  &{
+    height: @size-default;
+  }
+
+  &.is-medium{
+    height: @size-medium;
+  }
+  &.is-small{
+    height: @size-small;
+  }
+  &.is-mini{
+    height: @size-mini;
+  }
+}

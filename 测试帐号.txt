@@ -1,0 +1,7 @@
+jyf_test001
+123456
+
+
+// 调试接口
+http://test.api.blibao.com/pay/gateway.htm?method=pay&out_request_no=112121212
+需要POST方式提交数据，GET无法请求
